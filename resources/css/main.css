@@ -95,8 +95,9 @@ body{
 }
 
 img{
-    /* max-width: 100%; */
-    Height: auto;
+    max-width: 100%;
+    /* Height: auto; */
+    object-fit: cover;
 }
 
 p{
