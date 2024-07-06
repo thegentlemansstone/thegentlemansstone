@@ -17,7 +17,9 @@
     /* --link-color: #cc0099; */
     --link-color: #b47655;
     --border-color: #97a4b1;
-    --alternative-bg-color:  #d7d4d8;
+    /* --alternative-bg-color:  #d7d4d8; */
+    --alternative-bg-color:  #e6dfe3     ;
+
     --alternative-text-color:  #b47655; 
   
     /* measurements from style guide & wireframes */
@@ -89,6 +91,12 @@ body{
     background-color: var( --alternative-bg-color );
 }
 
+.background{
+    background-color: var( --alternative-bg-color );
+    z-index: -999;
+    background: transparent;
+}
+
 .test{
     background-color: var( --alternative-bg-color );
     z-index: 99;
@@ -150,7 +158,9 @@ p{
 /* ---------- Headings and Type */
 h1,h2,h3,h4 {
     font-family: var( --font-subheading );
-    color:  var( --strong-text-color );
+    /* color:  var( --strong-text-color ); */
+    color:  var( --alternative-bg-color );
+
     font-weight: normal;
 }
 
@@ -201,6 +211,7 @@ a{
     text-align: center;
     width: 100%;
     min-width: 100%;
+    border: 1px solid var( --alternative-bg-color );
 }
 
 /* .layout-full-width{
@@ -289,7 +300,6 @@ header .layout-wide{
 .nav-inner{
     margin-bottom: 0;
     width: 100%;
-    /* border: 1px solid red !important; */
 }
 
 .nav-inner ul{
@@ -323,7 +333,6 @@ header .layout-wide{
     .nav-inner ul{
         display: flex;
         justify-content: space-between;
-        /* border: 1px solid red !important; */
     }
 
     .nav-inner a{
@@ -331,7 +340,6 @@ header .layout-wide{
         padding: 0;
         margin-bottom: var(--spacer);
         font-weight: bold;
-        /* border: 1px solid red !important; */
     }
 
     /* .nav-inner .active{
@@ -407,17 +415,20 @@ footer{
 .spacer{
     position: relative;
     margin:0;   /*reset margin of figure tag*/
-        /* min-height: 100% */
-
+        min-height: 100%;
+            /* background-color: var( --alternative-bg-color ); */
+                border-bottom: 1px solid var( --border-color );
 }
 
 .spacer img{
      /* stretches out image to full screen width, for wide screens or low res images */
     width: 100%;
     min-width: 100%;
+    height: 100%;
+    min-height: 100%;
     position: fixed;
     top:0;
-    z-index: -9999;
+    z-index: -9;
 }
 
 @media screen and ( min-width: 800px ){

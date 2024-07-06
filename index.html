@@ -24,113 +24,129 @@
 </head>
 
 <body>
+    <section class="background" id="background">
+        <header>
+            <div class="layout-wide">
 
-    <header>
-        <div class="layout-wide">
+                <section class="logo-wrapper" id="LogoSection">
+                    <div class="site-logo">
+                        <img src="resources/images/hat-2.png" style="width:82px; height:86px" alt="top hat">
+                    </div>
+                </section>
 
-            <section class="logo-wrapper" id="LogoSection">
-                <div class="site-logo">
-                    <img src="resources/images/hat-2.png" style="width:82px; height:86px" alt="top hat">
+                <div class="site-title">
+                    The Gentleman's Stone
                 </div>
-            </section>
+                <div class="site-subtitle">Stonemasons</div>
+                <div class="site-sub-subtitle">Sunshine Coast, Queensland</div>
+                <br>
 
-            <div class="site-title">
-                The Gentleman's Stone
             </div>
-            <div class="site-subtitle">Stonemasons</div>
-            <div class="site-sub-subtitle">Sunshine Coast, Queensland</div>
-            <br>
+        </header>
 
+        <div class="navigation sticky" onclick="myFunction(burger)">
+            <button class="nav-prompt">
+                <div class="container" id="burger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+            <nav class="layout-wide nav-inner" aria-expanded="false">
+                <ul id="navigationList" onclick="activeMenu()">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#spacer1">Cladding</a></li>
+                    <li><a href="#spacer2">Crazy Paving</a></li>
+                    <li><a href="#spacer3">Solid Stone Walls</a></li>
+                    <li><a href="#spacer4">Mechanical Fixings</a></li>
+                    <li><a href="#spacer5">Carvings</a></li>
+                    <li><a href="#spacer6">Tileing</a></li>
+                    <li><a href="#spacer7">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
 
-    <div class="navigation sticky" onclick="myFunction(burger)">
-        <button class="nav-prompt">
-            <div class="container" id="burger">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
+        <style>
+            .ParallaxVideo {
+                height: 1000px;
+                width: 100%;
+                padding-bottom: 100px;
+                padding-top: 100px;
+            }
+            .ParallaxVideo video {
+                min-width: 100%;
+                position: fixed;
+                top: 0;
+                z-index: -999;
+                line-height: 2em;
+            }
+            .ParallaxVideo h1 {
+                color: #fff;
+                font-size: 76px;
+                font-weight: 700;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        </style>
+
+        <!-- Start hero spacer section-->
+        <div id="spacerhero" class="spacer spacer-hero ParallaxVideo ">
+            <NOSCRIPT><img src="resources/images/bg-0.jpg" alt=""></NOSCRIPT>
+            <div class="ParallaxVideo">
+                <video height="1200"  autoplay loop="auto" controls muted>
+                    <source src="resources/videos/Large 02 - Website.mov" type="video/mp4">
+                    Your browser doesn't support video element.
+                </video>
             </div>
-        </button>
-        <nav class="layout-wide nav-inner" aria-expanded="false">
-            <ul id="navigationList" onclick="activeMenu()">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#spacer1">Cladding</a></li>
-                <li><a href="#spacer2">Crazy Paving</a></li>
-                <li><a href="#spacer3">Solid Stone Walls</a></li>
-                <li><a href="#spacer4">Mechanical Fixings</a></li>
-                <li><a href="#spacer5">Carvings</a></li>
-                <li><a href="#spacer6">Tileing</a></li>
-                <li><a href="#spacer7">Contact Us</a></li>
-            </ul>
-        </nav>
-    </div>
+        </div>
+        <!-- End hero spacer section -->
 
-    <!-- <div class="ParallaxVideo">
-        <div id="spacerhero" class="spacer spacer-video layout-wide"></div>
-        <video autoplay loop preload="auto">
-            <source src="https://www.tutorialstonight.com/assets/html/night-sky.mp4" type="video/mp4">
-            Your browser doesn't support video element.
-        </video>
-    </div> -->
+        <section id="AboutSection" class="layout-wide">
+            <h1>Skilled Stonemasons</h1>
+            <div class="content-area-grid">
+                <div class="content-block">
+                    <p>We are skilled stonemasons with over 15 years of masonry experience and over 1000 projects
+                        successfully
+                        completed with satisfied clients.
+                    </p>
+                    <p>
+                        Qualified in all aspects of masonry and skilled in claddings, solid stone work, mechanical and
+                        chemical
+                        fixings, retaining walls, carvings, stone tiling and all aspects of paving. We work exclusively
+                        with
+                        reputable quality suppliers to preserve the environment and provide you with a quality product
+                        that
+                        will
+                        give you a lifetime of satisfaction.
+                    </p>
+                    <p>
+                        The owner of <a class="fancy">The Gentleman’s Stone</a>, Elliott has a trade and skills passed
+                        down
+                        through multiple
+                        generations
+                        and after passing on his years of
+                        knowledge to other tradesmen has the goal to provide a service and product that is natural,
+                        environmentally
+                        sound and can stand the test of time. With this goal in mind Elliott established The
+                        Gentleman’s Stone to continue the dream of creating master crafted stonemasonry servicing all of
+                        lower
+                        South east Queensland with a particular focus on sunshine coast.
+                    </p>
+                    <p> <b> ABN: </b> 68 804 965 359 </br> <b> QBCC Licence: </b> 15451143</p>
+                </div>
+                <div class="content-block">
+                    <p>Before moving to Australia Elliott worked on Restoration work of many heritage listed English
+                        castles
+                        and
+                        manors including Buckingham palace. During his time in Australia Elliott has worked on high
+                        prestige
+                        projects such as the 100 year Restoration of Anzac square Brisbane, Queensland governors house,
+                        Brisbane
+                        botanical gardens information centre, and The Queens wharf casino Brisbane.
+                        <br></br>
+                    </p>
 
-    <!-- <video autoplay loop preload="auto">
-        <source src="https://www.tutorialstonight.com/assets/html/night-sky.mp4" type="video/mp4">
-        Your browser doesn't support video element.
-    </video> -->
-
-    <!-- Start hero spacer section-->
-    <div id="spacerhero" class="spacer spacer-hero">
-        <NOSCRIPT><img src="resources/images/bg-0.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <br><br><br><br>
-    </div>
-    <!-- End hero spacer section -->
-
-    <section id="AboutSection" class="layout-wide">
-
-        <h1>Skilled Stonemasons</h1>
-
-        <div class="content-area-grid">
-            <div class="content-block">
-                <p>We are skilled stonemasons with over 15 years of masonry experience and over 1000 projects
-                    successfully
-                    completed with satisfied clients.
-                </p>
-                <p>
-                    Qualified in all aspects of masonry and skilled in claddings, solid stone work, mechanical and
-                    chemical
-                    fixings, retaining walls, carvings, stone tiling and all aspects of paving. We work exclusively with
-                    reputable quality suppliers to preserve the environment and provide you with a quality product that
-                    will
-                    give you a lifetime of satisfaction.
-                </p>
-                <p>
-                    The owner of <a class="fancy">The Gentleman’s Stone</a>, Elliott has a trade and skills passed down
-                    through multiple
-                    generations
-                    and after passing on his years of
-                    knowledge to other tradesmen has the goal to provide a service and product that is natural,
-                    environmentally
-                    sound and can stand the test of time. With this goal in mind Elliott established The
-                    Gentleman’s Stone to continue the dream of creating master crafted stonemasonry servicing all of
-                    lower
-                    South east Queensland with a particular focus on sunshine coast.
-                </p>
-                <p> <b> ABN: </b> 68 804 965 359 </br> <b> QBCC Licence: </b> 15451143</p>
-            </div>
-            <div class="content-block">
-                <p>Before moving to Australia Elliott worked on Restoration work of many heritage listed English castles
-                    and
-                    manors including Buckingham palace. During his time in Australia Elliott has worked on high prestige
-                    projects such as the 100 year Restoration of Anzac square Brisbane, Queensland governors house,
-                    Brisbane
-                    botanical gardens information centre, and The Queens wharf casino Brisbane.
-                    <br></br>
-                </p>
-
-                <!-- <a href="https://www.instagram.com/gentlemansstone/">
+                    <!-- <a href="https://www.instagram.com/gentlemansstone/">
                     <img src="resources/icons/Instagram_Glyph_Gradient.png" style="width:82px; height:86px"
                         alt="Instagram icon with link">
                 </a>
@@ -139,59 +155,61 @@
                     <p>Take a look at our Instagram page</p>
                 </a> -->
 
-                <p>
-                    <!-- <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Send us an email at -->
-                    <span itemprop="email" content="gentlemansstone@gmail.com"></span>
-                    <a href="mailto:gentlemansstone@gmail.com">
-                        <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Send us an email
-                    </a>
-                </p>
+                        <span itemprop="email" content="gentlemansstone@gmail.com"></span>
+                        <a href="mailto:gentlemansstone@gmail.com">
+                            <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Send us an email
+                        </a>
+                    </p>
 
-                <p>
-                    <!-- <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Call us on -->
-                    <span itemprop="telephone" content="+61406998625"></span>
-                    <a href="tel:+61406998625">
-                        <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Call us
-                    </a>
-                </p>
+                        <span itemprop="telephone" content="+61406998625"></span>
+                        <a href="tel:+61406998625">
+                            <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Call us
+                        </a>
+                    </p>
 
-                <p>
-                    <!-- <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Send us an SMS on -->
-                    <span itemprop="telephone" content="+61406998625"></span>
-                    <a href="sms:+61406998625">
-                        <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Send us an SMS
-                    </a>
-                </p>
-
-                <p>You can find us at our pages on these platforms:</p>
-                <!-- <div class="content-area-grid-three"> -->
-                <div class="content-area-grid">
-                    <div class="content-block">
-
-                        <a href="https://www.instagram.com/gentlemansstone/">
-                            <img src="resources/icons/Instagram_Glyph_Gradient.png" style="width:82px; height:86px"
-                                alt="Instagram icon with link">
+                        <span itemprop="telephone" content="+61406998625"></span>
+                        <a href="sms:+61406998625">
+                            <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Send us an SMS
                         </a>
+                    </p>
 
-                        <a href="https://www.instagram.com/gentlemansstone/">
-                        </a>
-                    </div>
+                    <p>You can find us at our pages on these platforms:</p>
+                    <!-- <div class="content-area-grid-three"> -->
+                    <div class="content-area-grid">
+                        <div class="content-block">
 
-                    <div class="content-block">
+                            <a href="https://www.instagram.com/gentlemansstone/">
+                                <img src="resources/icons/Instagram_Glyph_Gradient.png" style="width:82px; height:86px"
+                                    alt="Instagram icon with link">
+                            </a>
 
-                        <a href="https://www.facebook.com/thegentlemansstone">
-                            <img src="resources/icons/f_logo_RGB-Blue_58.png" style="width:82px; height:86px"
-                                alt="Facebook icon with link">
-                        </a>
+                            <a href="https://www.instagram.com/gentlemansstone/">
+                            </a>
+                        </div>
 
-                        <a href="https://www.facebook.com/thegentlemansstone">
-                        </a>
+                        <div class="content-block">
+
+                            <a href="https://www.facebook.com/thegentlemansstone">
+                                <img src="resources/icons/f_logo_RGB-Blue_58.png" style="width:82px; height:86px"
+                                    alt="Facebook icon with link">
+                            </a>
+
+                            <a href="https://www.facebook.com/thegentlemansstone">
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -199,953 +217,960 @@
 
             </div>
 
+        </section>
+
+        <!-- Start spacer section-->
+        <!-- <section id="spacer1" class="spacer spacer-1"> -->
+        <div id="spacer1" class="spacer spacer-1">
+
+            <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Cladding</h2>
         </div>
+        <!-- </section> -->
 
-    </section>
+        <!-- End spacer section -->
 
-    <!-- Start spacer section-->
-    <section id="spacer1" class="spacer spacer-1">
-        <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Cladding</h2>
-    </section>
+        <section id="CladdingSection" class="layout-wide">
 
-    <!-- End spacer section -->
+            <p>Natural veneer cladded walls are amongst the most popular of any stone features. They bring so much life
+                to
+                any project creating that warm and homely feel to your property. Cladding also breathes life into those
+                darker corners of the room with a heart-warming fireplace wrapped in stone or bright stone fetcher wall.
+            </p>
 
-    <section id="CladdingSection" class="layout-wide">
+            <p>There are many reasons for using sawn back thin stone cladding. It can not only create an outstanding
+                look of
+                solid structurally built stone walls without taking up too much room, but also there is that added
+                beauty
+                and benefit where you can bring any of your most favourite places from around the world and have it come
+                to
+                life in your very own backyard or living room.</p>
 
-        <p>Natural veneer cladded walls are amongst the most popular of any stone features. They bring so much life to
-            any project creating that warm and homely feel to your property. Cladding also breathes life into those
-            darker corners of the room with a heart-warming fireplace wrapped in stone or bright stone fetcher wall.</p>
+            <p>Whether it is that gorgeous Greek look, that bespoke Balinese feeling or that elegant English style, we
+                can
+                bring that dream to life.</p>
 
-        <p>There are many reasons for using sawn back thin stone cladding. It can not only create an outstanding look of
-            solid structurally built stone walls without taking up too much room, but also there is that added beauty
-            and benefit where you can bring any of your most favourite places from around the world and have it come to
-            life in your very own backyard or living room.</p>
+            <p>Cladding can significantly reduce the weight on a specific area compared to solid stone walls.</p>
 
-        <p>Whether it is that gorgeous Greek look, that bespoke Balinese feeling or that elegant English style, we can
-            bring that dream to life.</p>
+            <div class="image-gallery">
 
-        <p>Cladding can significantly reduce the weight on a specific area compared to solid stone walls.</p>
-
-        <div class="image-gallery">
-
-            <div class="site-subtitle"></div>
-            <div class="site-sub-subtitle"></div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad44.jpg">
-                        <img src="resources/galleries/Clad44.jpg" alt="Dry stack random white quartz cladding "
+                <div class="site-subtitle"></div>
+                <div class="site-sub-subtitle"></div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad44.jpg">
+                            <img src="resources/galleries/Clad44.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad45.jpg">
+                            <img src="resources/galleries/Clad45.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad46.jpg">
+                            <img src="resources/galleries/Clad46.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <a href="resources/galleries/Clad47.jpg">
+                        <img src="resources/galleries/Clad47.jpg" alt="Dry stack random white quartz cladding "
                             width="250" height="250">
                     </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad45.jpg">
-                        <img src="resources/galleries/Clad45.jpg" alt="Dry stack random white quartz cladding "
-                            width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad46.jpg">
-                        <img src="resources/galleries/Clad46.jpg" alt="Dry stack random white quartz cladding "
-                            width="250" height="250">
-                    </a>
-                </li>
-                <a href="resources/galleries/Clad47.jpg">
-                    <img src="resources/galleries/Clad47.jpg" alt="Dry stack random white quartz cladding " width="250"
-                        height="250">
-                </a>
-                </li>
-                <!-- </li>
+                    </li>
+                    <!-- </li>
                 <a href="resources/galleries/Clad48.jpg">
                     <img src="resources/galleries/Clad48.jpg" alt="Dry stack random white quartz cladding " width="250"
                         height="250">
                 </a> -->
-                </li>
-                </li>
-                <a href="resources/galleries/Clad49.jpg">
-                    <img src="resources/galleries/Clad49.jpg" alt="Dry stack random white quartz cladding " width="250"
-                        height="250">
-                </a>
-                </li>
-                </li>
-                <a href="resources/galleries/Clad50.jpg">
-                    <img src="resources/galleries/Clad50.jpg" alt="Dry stack random white quartz cladding " width="250"
-                        height="250">
-                </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Dry stack random white quartz cladding </div>
-            <div class="site-sub-subtitle"> Magnificent white marble cladding masterfully dry stacked creates a
-                breathtaking sight. </div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad1.jpg">
-                        <img src="resources/galleries/Clad1.jpg" alt="Dry stack random white quartz cladding "
+                    </li>
+                    </li>
+                    <a href="resources/galleries/Clad49.jpg">
+                        <img src="resources/galleries/Clad49.jpg" alt="Dry stack random white quartz cladding "
                             width="250" height="250">
                     </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad2.jpg">
-                        <img src="resources/galleries/Clad2.jpg" alt="Dry stack random white quartz cladding "
+                    </li>
+                    </li>
+                    <a href="resources/galleries/Clad50.jpg">
+                        <img src="resources/galleries/Clad50.jpg" alt="Dry stack random white quartz cladding "
                             width="250" height="250">
                     </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad3.jpg">
-                        <img src="resources/galleries/Clad3.jpg" alt="Dry stack random white quartz cladding "
+                    </li>
+                </ul>
+
+                <div class="site-subtitle"> Dry stack random white quartz cladding </div>
+                <div class="site-sub-subtitle"> Magnificent white marble cladding masterfully dry stacked creates a
+                    breathtaking sight. </div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad1.jpg">
+                            <img src="resources/galleries/Clad1.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad2.jpg">
+                            <img src="resources/galleries/Clad2.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad3.jpg">
+                            <img src="resources/galleries/Clad3.jpg" alt="Dry stack random white quartz cladding "
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <a href="resources/galleries/Clad5.jpg">
+                        <img src="resources/galleries/Clad5.jpg" alt="Dry stack random white quartz cladding "
                             width="250" height="250">
                     </a>
-                </li>
-                <a href="resources/galleries/Clad5.jpg">
-                    <img src="resources/galleries/Clad5.jpg" alt="Dry stack random white quartz cladding " width="250"
-                        height="250">
-                </a>
-                </li>
-                </li>
-                <a href="resources/galleries/Clad41.jpg">
-                    <img src="resources/galleries/Clad41.jpg" alt="Dry stack random white quartz cladding " width="250"
-                        height="250">
-                </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Wamberal dry stacked </div>
-            <div class="site-sub-subtitle"> Heart-warming wamberal stone. </div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad9.jpg">
-                        <img src="resources/galleries/Clad9.jpg" alt="Stone Clad Exterior" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad7.jpg">
-                        <img src="resources/galleries/Clad7.jpg" alt="Stone clad fireplace" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad42.jpg">
-                        <img src="resources/galleries/Clad42.jpg" alt="Stone Clad Exterior" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
-            <br></br>
-
-            <div class="site-subtitle"> Travertine grout stone cladding </div>
-            <div class="site-sub-subtitle">Classic and crisp</div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad19.jpg">
-                        <img src="resources/galleries/Clad19.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad20.jpg">
-                        <img src="resources/galleries/Clad20.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad21.jpg">
-                        <img src="resources/galleries/Clad21.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad22.jpg">
-                        <img src="resources/galleries/Clad22.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad23.jpg">
-                        <img src="resources/galleries/Clad23.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad24.jpg">
-                        <img src="resources/galleries/Clad24.jpg" alt="travertine grout stone cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-            <br></br>
-            <div class="site-subtitle"> Sand cement grout jointed cladding </div>
-            <div class="site-sub-subtitle">Smart and inviting</div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad25.jpg">
-                        <img src="resources/galleries/Clad25.jpg" alt="Sand cement grout jointed cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad26.jpg">
-                        <img src="resources/galleries/Clad26.jpg" alt="Sand cement grout jointed cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad27.jpg">
-                        <img src="resources/galleries/Clad27.jpg" alt="Sand cement grout jointed cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad43.jpg">
-                        <img src="resources/galleries/Clad43.jpg" alt="Sand cement grout jointed cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-            <br></br>
-
-            <div class="site-subtitle"> Linear sandstone dry stack cladding </div>
-            <div class="site-sub-subtitle">Warm and beautifull stone</div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad11.jpg">
-                        <img src="resources/galleries/Clad11.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad12.jpg">
-                        <img src="resources/galleries/Clad12.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad13.jpg">
-                        <img src="resources/galleries/Clad13.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad14.jpg">
-                        <img src="resources/galleries/Clad14.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad15.jpg">
-                        <img src="resources/galleries/Clad15.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad16.jpg">
-                        <img src="resources/galleries/Clad16.jpg" alt="Linear sand stone dry stack cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Dry stack random wall cladding </div>
-            <div class="site-sub-subtitle"></div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad28.jpg">
-                        <img src="resources/galleries/Clad28.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad29.jpg">
-                        <img src="resources/galleries/Clad29.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad30.jpg">
-                        <img src="resources/galleries/Clad30.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad31.jpg">
-                        <img src="resources/galleries/Clad31.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="resources/galleries/Clad32.jpg">
-                        <img src="resources/galleries/Clad32.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li> -->
-                <li>
-                    <a href="resources/galleries/Clad33.jpg">
-                        <img src="resources/galleries/Clad33.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad34.jpg">
-                        <img src="resources/galleries/Clad34.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <!-- <li>
-                    <a href="resources/galleries/Clad35.jpg">
-                        <img src="resources/galleries/Clad35.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li> -->
-            </ul>
-
-            <div class="site-subtitle">Blue-stone grout cladding</div>
-            <div class="site-sub-subtitle"></div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Clad36.jpg">
-                        <img src="resources/galleries/Clad36.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad37.jpg">
-                        <img src="resources/galleries/Clad37.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad38.jpg">
-                        <img src="resources/galleries/Clad38.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Clad39.jpg">
-                        <img src="resources/galleries/Clad39.jpg" alt="Dry stack random wall cladding" width="250"
-                            height="250">
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </section>
-
-    <!-- <section id="test" class="layout-wide test"> -->
-
-    <!-- Start spacer section-->
-    <div id="spacer2" class="spacer spacer-2">
-        <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Crazy paving</h2>
-    </div>
-
-    <!-- End spacer section -->
-    <section id="CrazySection" class="layout-wide">
-
-        <p>Crazy paving is ideal for those outside finishing touches or creating that floorless stone feeling flowing
-            through the property. You can elegantly add crazy paving to any area as it blends beautifully with any
-            design. It is also very resilient.</p>
-
-        <p>Crazy paving is a fantastic finish to have almost anywhere in or outside your home: from courtyards, to pool
-            sides, through bedrooms to your balcony, even your driveways and not to forget your front entrance to your
-            forever home.</p>
-
-    </section>
-
-
-    <section id="CrazyPhotosSection" class="layout-wide">
-        <div class="image-gallery">
-            <div class="site-subtitle">White marble crazy paving</div>
-            <div class="site-sub-subtitle">Stunning visual appeal.</div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Crazy3.jpg">
-                        <img src="resources/galleries/Crazy3.jpg" alt="Crazy marble paving" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Crazy5.jpg">
-                        <img src="resources/galleries/Crazy5.jpg" alt="Crazy marble paving" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Crazy7.jpg">
-                        <img src="resources/galleries/Crazy7.jpg" alt="Crazy marble paving" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Crazy8.jpg">
-                        <img src="resources/galleries/Crazy8.jpg" alt="Crazy marble paving" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-    </section>
-
-    <!-- Start spacer section-->
-    <div id="spacer3" class="spacer spacer-3">
-        <NOSCRIPT><img src="resources/images/bg-3letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Solid stone walls</h2>
-    </div>
-    <!-- End spacer section -->
-
-    <p>
-        Solid stone is perfect for retaining walls. It also doubles as a stunning feature. These days we can see that
-        solid stone is gaining more popularity mainly because of the practical reasons like acting as a great natural
-        insulation for any build and being extremely tough as well as having a timeless look and being locally sourced
-        from sustainable quarries.
-    </p>
-
-    <p>There are two different types of solid stone walling so you can pick your fancy. You could pick a solid dry stack
-        for that incredible finish or grout which gives it a bespoke character and heritage look.</p>
-
-    <p>We create freestanding and retaining walls from ground up. This is solid structurally laid stone as well as
-        veneer tied into existing or new block work.</p>
-
-    <section id="PhotosSection" class="layout-wide">
-        <div class="image-gallery">
-
-            <div class="site-subtitle"> Solid sandstone </div>
-            <div class="site-sub-subtitle"> Exudes sturdiness and beauty. </div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall2.jpg">
-                        <img src="resources/galleries/SolidStoneWall2.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall4.jpg">
-                        <img src="resources/galleries/SolidStoneWall4.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall5.jpg">
-                        <img src="resources/galleries/SolidStoneWall5.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall6.jpg">
-                        <img src="resources/galleries/SolidStoneWall6.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/SolidStoneWall1.jpg">
-                        <img src="resources/galleries/SolidStoneWall1.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Solid stone </div>
-            <div class="site-sub-subtitle"> </div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall7.jpg">
-                        <img src="resources/galleries/SolidStoneWall7.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall8.jpg">
-                        <img src="resources/galleries/SolidStoneWall8.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall23.jpg">
-                        <img src="resources/galleries/SolidStoneWall23.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Blue Stone with grout joint </div>
-            <div class="site-sub-subtitle"> Mount Coot-tha botanical gardens. </div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall18.jpg">
-                        <img src="resources/galleries/SolidStoneWall18.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall19.jpg">
-                        <img src="resources/galleries/SolidStoneWall19.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall20.jpg">
-                        <img src="resources/galleries/SolidStoneWall20.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall21.jpg">
-                        <img src="resources/galleries/SolidStoneWall21.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall22.jpg">
-                        <img src="resources/galleries/SolidStoneWall22.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall9.jpg">
-                        <img src="resources/galleries/SolidStoneWall9.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall10.jpg">
-                        <img src="resources/galleries/SolidStoneWall10.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall11.jpg">
-                        <img src="resources/galleries/SolidStoneWall11.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall12.jpg">
-                        <img src="resources/galleries/SolidStoneWall12.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/SolidStoneWall13.jpg">
-                        <img src="resources/galleries/SolidStoneWall13.jpg" alt="Solid stone wall" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-
-
-            <!-- Load Facebook SDK for JavaScript -->
-            <div id="fb-root"></div>
-            <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-            <!-- Embedd Facebook video-->
-            <iframe
-                src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTheGentlemansStone%2Fvideos%2F1181664652961660%2F&show_text=false&width=267&t=0"
-                width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
-
-
-        </div>
-    </section>
-
-    <!-- Start spacer section-->
-    <div id="spacer4" class="spacer spacer-4">
-        <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Mechanical Fixings</h2>
-    </div>
-    <!-- End spacer section -->
-
-    <p>At <a class="fancy">The Gentleman’s Stone</a> we can install hard and heavy panels of stone from mechanical aid
-        for façade, substructure or substrate. This can be done from engineered clips that are best described as being a
-        dry fixed bracket, secured by either a bolt to steel work, screw bolt or through bolt to concrete or masonry
-        substrate, Pan headed S S wood screw onto plywood or compressed sheeting and then there is no reliance on the
-        epoxy or glue. Most mechanical aid is used to hide services to</p>
-
-    <p>Create that stunning feature but also used to comply with building regulations for veneer stone walls over a
-        certain height.</p>
-
-
-    <section id="PhotosSection" class="layout-wide">
-
-        <div class="image-gallery">
-            <div class="site-subtitle"></div>
-            <div class="site-sub-subtitle"></div>
-
-            <ul>
-
-                <li>
-                    <a href="resources/galleries/MechFixing16.jpg">
-                        <img src="resources/galleries/MechFixing16.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing17.jpg">
-                        <img src="resources/galleries/MechFixing17.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing18.jpg">
-                        <img src="resources/galleries/MechFixing18.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing19.jpg">
-                        <img src="resources/galleries/MechFixing19.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing20.jpg">
-                        <img src="resources/galleries/MechFixing20.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-        <div class="image-gallery">
-            <div class="site-subtitle">Travertine panel</div>
-            <div class="site-sub-subtitle">Stunning classic travertine panel</div>
-
-            <ul>
-
-                <li>
-                    <a href="resources/galleries/MechFixing1.jpg">
-                        <img src="resources/galleries/MechFixing1.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing2.jpg">
-                        <img src="resources/galleries/MechFixing2.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing3.jpg">
-                        <img src="resources/galleries/MechFixing3.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing4.jpg">
-                        <img src="resources/galleries/MechFixing4.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing5.jpg">
-                        <img src="resources/galleries/MechFixing5.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <a href="resources/galleries/MechFixing6.jpg">
-                        <img src="resources/galleries/MechFixing6.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing7.jpg">
-                        <img src="resources/galleries/MechFixing7.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing8.jpg">
-                        <img src="resources/galleries/MechFixing8.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing9.jpg">
-                        <img src="resources/galleries/MechFixing9.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/MechFixing10.jpg">
-                        <img src="resources/galleries/MechFixing10.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-            </ul>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/MechFixing11.jpg">
-                        <img src="resources/galleries/MechFixing11.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing12.jpg">
-                        <img src="resources/galleries/MechFixing12.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing13.jpg">
-                        <img src="resources/galleries/MechFixing13.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/MechFixing14.jpg">
-                        <img src="resources/galleries/MechFixing14.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/MechFixing15.jpg">
-                        <img src="resources/galleries/MechFixing15.jpg" alt="" width="250" height="250">
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-
-    </section>
-
-    <!-- Start spacer section-->
-    <div id="spacer5" class="spacer spacer-5">
-        <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Carvings</h2>
-    </div>
-    <!-- End spacer section -->
-
-    <p>We love working with natural stone to create a custom hand carved master peace. It is our passion to create
-        incredibly fine details on your desired project from sandstone, limestone, travertine and even some soft marble.
-        My team is ready to design features such as sandstone wall mounted cover lights, limestone sculptures, even
-        letter cutting for your family name or take it up a notch by adding your very own family crest.
-    </p>
-
-    <section id="PhotosSection" class="layout-wide">
-        <div class="image-gallery">
-            <div class="site-subtitle">Carved sandstone wall lamps</div>
-            <div class="site-sub-subtitle">Exudes warmth and beauty.</div>
-            <ul>
-
-                <li>
-                    <a href="resources/galleries/Carvings1.jpg">
-                        <img src="resources/galleries/Carvings1.jpg" alt="Sandstone carving" width="250" height="250">
-                    </a>
-                </li>
-
-                <li>
-                    <a href="resources/galleries/Carvings2.jpg">
-                        <img src="resources/galleries/Carvings2.jpg" alt="Sandstone carving" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/Carvings3.jpg">
-                        <img src="resources/galleries/Carvings3.jpg" alt="Sandstone carving" width="250" height="250">
-                    </a>
-                </li>
-
-                <div class="site-subtitle"> Carved sandstone wall installation</div>
-                <div class="site-sub-subtitle">A stunning feature piece</div>
+                    </li>
+                    </li>
+                    <a href="resources/galleries/Clad41.jpg">
+                        <img src="resources/galleries/Clad41.jpg" alt="Dry stack random white quartz cladding "
+                            width="250" height="250">
+                    </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle"> Wamberal dry stacked </div>
+                <div class="site-sub-subtitle"> Heart-warming wamberal stone. </div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad9.jpg">
+                            <img src="resources/galleries/Clad9.jpg" alt="Stone Clad Exterior" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad7.jpg">
+                            <img src="resources/galleries/Clad7.jpg" alt="Stone clad fireplace" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad42.jpg">
+                            <img src="resources/galleries/Clad42.jpg" alt="Stone Clad Exterior" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+                <br></br>
+
+                <div class="site-subtitle"> Travertine grout stone cladding </div>
+                <div class="site-sub-subtitle">Classic and crisp</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad19.jpg">
+                            <img src="resources/galleries/Clad19.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad20.jpg">
+                            <img src="resources/galleries/Clad20.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad21.jpg">
+                            <img src="resources/galleries/Clad21.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad22.jpg">
+                            <img src="resources/galleries/Clad22.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad23.jpg">
+                            <img src="resources/galleries/Clad23.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad24.jpg">
+                            <img src="resources/galleries/Clad24.jpg" alt="travertine grout stone cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+                <br></br>
+                <div class="site-subtitle"> Sand cement grout jointed cladding </div>
+                <div class="site-sub-subtitle">Smart and inviting</div>
 
                 <ul>
                     <li>
-                        <a href="resources/galleries/Carvings4.jpg">
-                            <img src="resources/galleries/Carvings4.jpg" alt="Carved sandstone wall installation"
+                        <a href="resources/galleries/Clad25.jpg">
+                            <img src="resources/galleries/Clad25.jpg" alt="Sand cement grout jointed cladding"
                                 width="250" height="250">
                         </a>
                     </li>
                     <li>
-                        <a href="resources/galleries/Carvings5.jpg">
-                            <img src="resources/galleries/Carvings5.jpg" alt="Carved sandstone wall installation"
+                        <a href="resources/galleries/Clad26.jpg">
+                            <img src="resources/galleries/Clad26.jpg" alt="Sand cement grout jointed cladding"
                                 width="250" height="250">
                         </a>
                     </li>
                     <li>
-                        <a href="resources/galleries/Carvings6.jpg">
-                            <img src="resources/galleries/Carvings6.jpg" alt="Carved sandstone wall installation"
+                        <a href="resources/galleries/Clad27.jpg">
+                            <img src="resources/galleries/Clad27.jpg" alt="Sand cement grout jointed cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad43.jpg">
+                            <img src="resources/galleries/Clad43.jpg" alt="Sand cement grout jointed cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+                <br></br>
+
+                <div class="site-subtitle"> Linear sandstone dry stack cladding </div>
+                <div class="site-sub-subtitle">Warm and beautifull stone</div>
+
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad11.jpg">
+                            <img src="resources/galleries/Clad11.jpg" alt="Linear sand stone dry stack cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad12.jpg">
+                            <img src="resources/galleries/Clad12.jpg" alt="Linear sand stone dry stack cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad13.jpg">
+                            <img src="resources/galleries/Clad13.jpg" alt="Linear sand stone dry stack cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad14.jpg">
+                            <img src="resources/galleries/Clad14.jpg" alt="Linear sand stone dry stack cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad15.jpg">
+                            <img src="resources/galleries/Clad15.jpg" alt="Linear sand stone dry stack cladding"
+                                width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad16.jpg">
+                            <img src="resources/galleries/Clad16.jpg" alt="Linear sand stone dry stack cladding"
                                 width="250" height="250">
                         </a>
                     </li>
                 </ul>
 
-            </ul>
-            <div class="site-subtitle">Heritage & restoration work</div>
-            <div class="site-sub-subtitle">Windsor Castle</div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/Carvings7.jpg">
-                        <img src="resources/galleries/Carvings7.jpg" alt="Heritage & restoration work" width="250"
+                <div class="site-subtitle"> Dry stack random wall cladding </div>
+                <div class="site-sub-subtitle"></div>
+
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad28.jpg">
+                            <img src="resources/galleries/Clad28.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad29.jpg">
+                            <img src="resources/galleries/Clad29.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad30.jpg">
+                            <img src="resources/galleries/Clad30.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad31.jpg">
+                            <img src="resources/galleries/Clad31.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <!-- <li>
+                    <a href="resources/galleries/Clad32.jpg">
+                        <img src="resources/galleries/Clad32.jpg" alt="Dry stack random wall cladding" width="250"
                             height="250">
                     </a>
-                </li>
-            </ul>
+                </li> -->
+                    <li>
+                        <a href="resources/galleries/Clad33.jpg">
+                            <img src="resources/galleries/Clad33.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad34.jpg">
+                            <img src="resources/galleries/Clad34.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <!-- <li>
+                    <a href="resources/galleries/Clad35.jpg">
+                        <img src="resources/galleries/Clad35.jpg" alt="Dry stack random wall cladding" width="250"
+                            height="250">
+                    </a>
+                </li> -->
+                </ul>
+
+                <div class="site-subtitle">Blue-stone grout cladding</div>
+                <div class="site-sub-subtitle"></div>
+
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Clad36.jpg">
+                            <img src="resources/galleries/Clad36.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad37.jpg">
+                            <img src="resources/galleries/Clad37.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad38.jpg">
+                            <img src="resources/galleries/Clad38.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Clad39.jpg">
+                            <img src="resources/galleries/Clad39.jpg" alt="Dry stack random wall cladding" width="250"
+                                height="250">
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- <section id="test" class="layout-wide test"> -->
+
+        <!-- Start spacer section-->
+        <div id="spacer2" class="spacer spacer-2">
+            <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Crazy paving</h2>
         </div>
+        <!-- End spacer section -->
 
-    </section>
+        <section id="CrazySection" class="layout-wide">
+            <p>Crazy paving is ideal for those outside finishing touches or creating that floorless stone feeling
+                flowing
+                through the property. You can elegantly add crazy paving to any area as it blends beautifully with any
+                design. It is also very resilient.</p>
+            <p>Crazy paving is a fantastic finish to have almost anywhere in or outside your home: from courtyards, to
+                pool
+                sides, through bedrooms to your balcony, even your driveways and not to forget your front entrance to
+                your
+                forever home.</p>
+        </section>
 
-    <!-- Start spacer section-->
-    <div id="spacer6" class="spacer spacer-6">
-        <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Tileing</h2>
-    </div>
-    <!-- End spacer section -->
 
-    <p>We relish in working with natural stone tiles to put the incredible fine eyed details such as quirk and mightier,
-        bull nose or a crisp mitred edge. We work with an array of different size stone tiles from small 70mm by 70mm to
-        full size marble panels sizing from 1.8 meters wide to 2.3 meters high. We can work with any stone product and
-        not forgetting ceramic tiling
+        <section id="CrazyPhotosSection" class="layout-wide">
+            <div class="image-gallery">
+                <div class="site-subtitle">White marble crazy paving</div>
+                <div class="site-sub-subtitle">Stunning visual appeal.</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Crazy3.jpg">
+                            <img src="resources/galleries/Crazy3.jpg" alt="Crazy marble paving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Crazy5.jpg">
+                            <img src="resources/galleries/Crazy5.jpg" alt="Crazy marble paving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Crazy7.jpg">
+                            <img src="resources/galleries/Crazy7.jpg" alt="Crazy marble paving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Crazy8.jpg">
+                            <img src="resources/galleries/Crazy8.jpg" alt="Crazy marble paving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
 
-    <section id="PhotosSection" class="layout-wide">
-        <div class="image-gallery">
-            <div class="site-subtitle"></div>
-            <div class="site-sub-subtitle"></div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/tiles12.jpg">
-                        <img src="resources/galleries/tiles12.jpg" alt="Pool Tiles" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles13.jpg">
-                        <img src="resources/galleries/tiles13.jpg" alt="Pool Tiles" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
+            </div>
 
-            <div class="site-subtitle">Travitine ceramic tiles</div>
-            <div class="site-sub-subtitle">A Balinese dream.</div>
-            <ul>
-                <li>
-                    <a href="resources/galleries/tiles4.jpg">
-                        <img src="resources/galleries/tiles4.jpg" alt="Travitine ceramic Tiles" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles5.jpg">
-                        <img src="resources/galleries/tiles5.jpg" alt="Travitine ceramic Tiles" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles6.jpg">
-                        <img src="resources/galleries/tiles6.jpg" alt="Travitine ceramic Tiles" width="250"
-                            height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles10.jpg">
-                        <img src="resources/galleries/tiles10.jpg" alt="Marble Tiles" width="250" height="250">
-                    </a>
-                </li>
+        </section>
 
-            </ul>
-            <div class="site-subtitle">Marble Tiles</div>
-            <div class="site-sub-subtitle">Classy and classic.</div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/tiles7.jpg">
-                        <img src="resources/galleries/tiles7.jpg" alt="Marble Tiles" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles8.jpg">
-                        <img src="resources/galleries/tiles8.jpg" alt="Marble Tiles" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles9.jpg">
-                        <img src="resources/galleries/tiles9.jpg" alt="Marble Tiles" width="250" height="250">
-                    </a>
-                </li>
-                <li>
-                    <a href="resources/galleries/tiles11.jpg">
-                        <img src="resources/galleries/tiles11.jpg" alt="Marble Tiles" width="250" height="250">
-                    </a>
-                </li>
-            </ul>
-
-            <div class="site-subtitle"> Tumbled travertine shower</div>
-            <div class="site-sub-subtitle">Warm and inviting customization for your dream home</div>
-
-            <ul>
-                <li>
-                    <a href="resources/galleries/Shower1.png">
-                        <img src="resources/galleries/Shower1.png" alt="Tumbled travertine shower" width="250"
-                            height="250">
-                    </a>
-                </li>
-            </ul>
-
+        <!-- Start spacer section-->
+        <div id="spacer3" class="spacer spacer-3">
+            <NOSCRIPT><img src="resources/images/bg-3letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Solid stone walls</h2>
         </div>
+        <!-- End spacer section -->
+        <section id="SolidStoneSection" class="layout-wide">
 
-    </section>
+            <p>
+                Solid stone is perfect for retaining walls. It also doubles as a stunning feature. These days we can see
+                that
+                solid stone is gaining more popularity mainly because of the practical reasons like acting as a great
+                natural
+                insulation for any build and being extremely tough as well as having a timeless look and being locally
+                sourced
+                from sustainable quarries.
+            </p>
+
+            <p>There are two different types of solid stone walling so you can pick your fancy. You could pick a solid
+                dry stack
+                for that incredible finish or grout which gives it a bespoke character and heritage look.</p>
+
+            <p>We create freestanding and retaining walls from ground up. This is solid structurally laid stone as well
+                as
+                veneer tied into existing or new block work.</p>
+        </section>
+
+        <section id="SolidStonePhotosSection" class="layout-wide">
+            <div class="image-gallery">
+                <div class="site-subtitle"> Solid sandstone </div>
+                <div class="site-sub-subtitle"> Exudes sturdiness and beauty. </div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall2.jpg">
+                            <img src="resources/galleries/SolidStoneWall2.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall4.jpg">
+                            <img src="resources/galleries/SolidStoneWall4.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall5.jpg">
+                            <img src="resources/galleries/SolidStoneWall5.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall6.jpg">
+                            <img src="resources/galleries/SolidStoneWall6.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall1.jpg">
+                            <img src="resources/galleries/SolidStoneWall1.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle"> Solid stone </div>
+                <div class="site-sub-subtitle"> </div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall7.jpg">
+                            <img src="resources/galleries/SolidStoneWall7.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall8.jpg">
+                            <img src="resources/galleries/SolidStoneWall8.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall23.jpg">
+                            <img src="resources/galleries/SolidStoneWall23.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle"> Blue Stone with grout joint </div>
+                <div class="site-sub-subtitle"> Mount Coot-tha botanical gardens. </div>
+
+                <ul>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall18.jpg">
+                            <img src="resources/galleries/SolidStoneWall18.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall19.jpg">
+                            <img src="resources/galleries/SolidStoneWall19.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall20.jpg">
+                            <img src="resources/galleries/SolidStoneWall20.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall21.jpg">
+                            <img src="resources/galleries/SolidStoneWall21.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall22.jpg">
+                            <img src="resources/galleries/SolidStoneWall22.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall9.jpg">
+                            <img src="resources/galleries/SolidStoneWall9.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall10.jpg">
+                            <img src="resources/galleries/SolidStoneWall10.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall11.jpg">
+                            <img src="resources/galleries/SolidStoneWall11.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall12.jpg">
+                            <img src="resources/galleries/SolidStoneWall12.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/SolidStoneWall13.jpg">
+                            <img src="resources/galleries/SolidStoneWall13.jpg" alt="Solid stone wall" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
 
 
-    <!-- Start spacer section-->
-    <div id="spacer7" class="spacer spacer-7">
-        <NOSCRIPT><img src="resources/images/bg-4letterbox.jpg" alt="Nails and Manicures"></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <h2>Contact us</h2>
-    </div>
-    <!-- End spacer section -->
+                <!-- Load Facebook SDK for JavaScript -->
+                <div id="fb-root"></div>
+                <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+                <!-- Embedd Facebook video-->
+                <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTheGentlemansStone%2Fvideos%2F1181664652961660%2F&show_text=false&width=267&t=0"
+                    width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    allowFullScreen="true"></iframe>
 
-    <section id="LocationHeadSection" class="layout-wide site-subtitle">
-        <a class="fancylarge">The Gentleman’s Stone</a>
-        <span>is located in</span>
-        <!-- <span>We are located in</span> -->
-        <span itemprop=location itemscope itemtype=http://schema.org/Place>
-            <meta itemprop=name content="The Gentlemans Stone"> <span itemprop=address itemscope
-                itemtype=http://schema.org/PostalAddress content="Sunshine coast, Queensland, 4558">
-                <meta itemprop=streetAddress content="Sunshine coast, Queensland, 4558">
+
+            </div>
+        </section>
+
+        <!-- Start spacer section-->
+        <div id="spacer4" class="spacer spacer-4">
+            <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Mechanical Fixings</h2>
+        </div>
+        <!-- End spacer section -->
+
+        <section id="MechSection" class="layout-wide">
+            <p>At <a class="fancy">The Gentleman’s Stone</a> we can install hard and heavy panels of stone from
+                mechanical aid
+                for façade, substructure or substrate. This can be done from engineered clips that are best described as
+                being a
+                dry fixed bracket, secured by either a bolt to steel work, screw bolt or through bolt to concrete or
+                masonry
+                substrate, Pan headed S S wood screw onto plywood or compressed sheeting and then there is no reliance
+                on the
+                epoxy or glue. Most mechanical aid is used to hide services to</p>
+
+            <p>Create that stunning feature but also used to comply with building regulations for veneer stone walls
+                over a
+                certain height.</p>
+        </section>
+
+        <section id="MechPhotosSection" class="layout-wide">
+
+            <div class="image-gallery">
+                <div class="site-subtitle"></div>
+                <div class="site-sub-subtitle"></div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/MechFixing16.jpg">
+                            <img src="resources/galleries/MechFixing16.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing17.jpg">
+                            <img src="resources/galleries/MechFixing17.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing18.jpg">
+                            <img src="resources/galleries/MechFixing18.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing19.jpg">
+                            <img src="resources/galleries/MechFixing19.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing20.jpg">
+                            <img src="resources/galleries/MechFixing20.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <div class="site-subtitle">Travertine panel</div>
+                <div class="site-sub-subtitle">Stunning classic travertine panel</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/MechFixing1.jpg">
+                            <img src="resources/galleries/MechFixing1.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing2.jpg">
+                            <img src="resources/galleries/MechFixing2.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing3.jpg">
+                            <img src="resources/galleries/MechFixing3.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing4.jpg">
+                            <img src="resources/galleries/MechFixing4.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing5.jpg">
+                            <img src="resources/galleries/MechFixing5.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/MechFixing6.jpg">
+                            <img src="resources/galleries/MechFixing6.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing7.jpg">
+                            <img src="resources/galleries/MechFixing7.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing8.jpg">
+                            <img src="resources/galleries/MechFixing8.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing9.jpg">
+                            <img src="resources/galleries/MechFixing9.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing10.jpg">
+                            <img src="resources/galleries/MechFixing10.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="resources/galleries/MechFixing11.jpg">
+                            <img src="resources/galleries/MechFixing11.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing12.jpg">
+                            <img src="resources/galleries/MechFixing12.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing13.jpg">
+                            <img src="resources/galleries/MechFixing13.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing14.jpg">
+                            <img src="resources/galleries/MechFixing14.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/MechFixing15.jpg">
+                            <img src="resources/galleries/MechFixing15.jpg" alt="" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- Start spacer section-->
+        <div id="spacer5" class="spacer spacer-5">
+            <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Carvings</h2>
+        </div>
+        <!-- End spacer section -->
+
+        <section id="CarvingSection" class="layout-wide">
+            <p>We love working with natural stone to create a custom hand carved master peace. It is our passion to
+                create
+                incredibly fine details on your desired project from sandstone, limestone, travertine and even some soft
+                marble.
+                My team is ready to design features such as sandstone wall mounted cover lights, limestone sculptures,
+                even
+                letter cutting for your family name or take it up a notch by adding your very own family crest.
+            </p>
+        </section>
+
+        <section id="PhotosSection" class="layout-wide">
+            <div class="image-gallery">
+                <div class="site-subtitle">Carved sandstone wall lamps</div>
+                <div class="site-sub-subtitle">Exudes warmth and beauty.</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Carvings1.jpg">
+                            <img src="resources/galleries/Carvings1.jpg" alt="Sandstone carving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Carvings2.jpg">
+                            <img src="resources/galleries/Carvings2.jpg" alt="Sandstone carving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/Carvings3.jpg">
+                            <img src="resources/galleries/Carvings3.jpg" alt="Sandstone carving" width="250"
+                                height="250">
+                        </a>
+                    </li>
+
+                    <div class="site-subtitle"> Carved sandstone wall installation</div>
+                    <div class="site-sub-subtitle">A stunning feature piece</div>
+                    <ul>
+                        <li>
+                            <a href="resources/galleries/Carvings4.jpg">
+                                <img src="resources/galleries/Carvings4.jpg" alt="Carved sandstone wall installation"
+                                    width="250" height="250">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="resources/galleries/Carvings5.jpg">
+                                <img src="resources/galleries/Carvings5.jpg" alt="Carved sandstone wall installation"
+                                    width="250" height="250">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="resources/galleries/Carvings6.jpg">
+                                <img src="resources/galleries/Carvings6.jpg" alt="Carved sandstone wall installation"
+                                    width="250" height="250">
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+
+                <div class="site-subtitle">Heritage & restoration work</div>
+                <div class="site-sub-subtitle">Windsor Castle</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Carvings7.jpg">
+                            <img src="resources/galleries/Carvings7.jpg" alt="Heritage & restoration work" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Start spacer section-->
+        <div id="spacer6" class="spacer spacer-6">
+            <NOSCRIPT><img src="resources/images/bg-1letterbox.jpg" alt=""></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Tileing</h2>
+        </div>
+        <!-- End spacer section -->
+
+        <section id="TileSection" class="layout-wide">
+            <p>We relish in working with natural stone tiles to put the incredible fine eyed details such as quirk and
+                mightier,
+                bull nose or a crisp mitred edge. We work with an array of different size stone tiles from small 70mm by
+                70mm to
+                full size marble panels sizing from 1.8 meters wide to 2.3 meters high. We can work with any stone
+                product and
+                not forgetting ceramic tiling</p>
+        </section>
+
+        <section id="PhotosSection" class="layout-wide">
+            <div class="image-gallery">
+                <div class="site-subtitle"></div>
+                <div class="site-sub-subtitle"></div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/tiles12.jpg">
+                            <img src="resources/galleries/tiles12.jpg" alt="Pool Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles13.jpg">
+                            <img src="resources/galleries/tiles13.jpg" alt="Pool Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle">Travitine ceramic tiles</div>
+                <div class="site-sub-subtitle">A Balinese dream.</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/tiles4.jpg">
+                            <img src="resources/galleries/tiles4.jpg" alt="Travitine ceramic Tiles" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles5.jpg">
+                            <img src="resources/galleries/tiles5.jpg" alt="Travitine ceramic Tiles" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles6.jpg">
+                            <img src="resources/galleries/tiles6.jpg" alt="Travitine ceramic Tiles" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles10.jpg">
+                            <img src="resources/galleries/tiles10.jpg" alt="Marble Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle">Marble Tiles</div>
+                <div class="site-sub-subtitle">Classy and classic.</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/tiles7.jpg">
+                            <img src="resources/galleries/tiles7.jpg" alt="Marble Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles8.jpg">
+                            <img src="resources/galleries/tiles8.jpg" alt="Marble Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles9.jpg">
+                            <img src="resources/galleries/tiles9.jpg" alt="Marble Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resources/galleries/tiles11.jpg">
+                            <img src="resources/galleries/tiles11.jpg" alt="Marble Tiles" width="250" height="250">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="site-subtitle"> Tumbled travertine shower</div>
+                <div class="site-sub-subtitle">Warm and inviting customization for your dream home</div>
+                <ul>
+                    <li>
+                        <a href="resources/galleries/Shower1.png">
+                            <img src="resources/galleries/Shower1.png" alt="Tumbled travertine shower" width="250"
+                                height="250">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Start spacer section-->
+        <div id="spacer7" class="spacer spacer-7">
+            <NOSCRIPT><img src="resources/images/bg-4letterbox.jpg" alt="Nails and Manicures"></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <h2>Contact us</h2>
+        </div>
+        <!-- End spacer section -->
+
+        <section id="LocationHeadSection" class="layout-wide site-subtitle">
+            <a class="fancylarge">The Gentleman’s Stone</a>
+            <span>is located in</span>
+            <!-- <span>We are located in</span> -->
+            <span itemprop=location itemscope itemtype=http://schema.org/Place>
+                <meta itemprop=name content="The Gentlemans Stone"> <span itemprop=address itemscope
+                    itemtype=http://schema.org/PostalAddress content="Sunshine coast, Queensland, 4558">
+                    <meta itemprop=streetAddress content="Sunshine coast, Queensland, 4558">
+                </span>
+                <span>Sunshine coast</span>, <span>Queensland</span>, <span>4558</span>.
             </span>
-            <span>Sunshine coast</span>, <span>Queensland</span>, <span>4558</span>.
-        </span>
-        <br></br>
-    </section>
+            <br></br>
+        </section>
 
-    <div class="content-area-grid">
+        <div class="content-area-grid">
 
-        <div class="content-block">
+            <div class="content-block">
 
-            <section id="MapSection" class="layout-wide">
+                <section id="MapSection" class="layout-wide">
 
-                <!-- <a itemprop="hasMap" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161345.8493428028!2d153.03811479060857!3d-26.671746525402153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b937fb66d7d48ed%3A0x302a35af3deaf50!2sSunshine%20Coast%20QLD!5e0!3m2!1sen!2sau!4v1713093573496!5m2!1sen!2sau" width="400" height="300"></a> -->
+                    <!-- <a itemprop="hasMap" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161345.8493428028!2d153.03811479060857!3d-26.671746525402153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b937fb66d7d48ed%3A0x302a35af3deaf50!2sSunshine%20Coast%20QLD!5e0!3m2!1sen!2sau!4v1713093573496!5m2!1sen!2sau" width="400" height="300"></a> -->
 
-                <div class="iframe-container">
-                    <!-- <iframe
+                    <div class="iframe-container">
+                        <!-- <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161345.8493428028!2d153.03811479060857!3d-26.671746525402153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b937fb66d7d48ed%3A0x302a35af3deaf50!2sSunshine%20Coast%20QLD!5e0!3m2!1sen!2sau!4v1713093573496!5m2!1sen!2sau"
                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe> -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d909553.5312324675!2d152.9931964!3d-27.0635319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad1c0fd92852dcd9%3A0x1cac54969069237e!2sThe%20Gentleman&#39;s%20Stone!5e0!3m2!1sen!2sau!4v1714212657290!5m2!1sen!2sau"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d909553.5312324675!2d152.9931964!3d-27.0635319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xad1c0fd92852dcd9%3A0x1cac54969069237e!2sThe%20Gentleman&#39;s%20Stone!5e0!3m2!1sen!2sau!4v1714212657290!5m2!1sen!2sau"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
 
-                <!-- <br></br>
+                    <!-- <br></br>
                 <p>You can find us at our pages on these platforms:</p>
                     <div class="content-area-grid">
                     <div class="content-block">
@@ -1174,80 +1199,80 @@
                 </div> -->
 
 
-            </section>
+                </section>
 
-        </div>
+            </div>
 
-        <div class="content-block">
+            <div class="content-block">
 
-            <section id="ContactSection" class="layout-wide">
-                <!-- Start Contact Area -->
+                <section id="ContactSection" class="layout-wide">
+                    <!-- Start Contact Area -->
 
-                <p>
-                    <!-- <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Send us an email at -->
-                    <span itemprop="email" content="gentlemanstone@gmail.com"></span>
-                    <a href="mailto:gentlemanstone@gmail.com">
-                        <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Send us an email
-                        <!-- <SCRIPT TYPE="text/javascript">document.write('e' + 'mail' + '' + '' + '@' + 'gmail' + '.com') </SCRIPT> -->
-                        <!-- <NOSCRIPT><img src='resources/images/email.png' height="auto" width="200"></NOSCRIPT> -->
-                    </a>
-                </p>
+                        <span itemprop="email" content="gentlemanstone@gmail.com"></span>
+                        <a href="mailto:gentlemanstone@gmail.com">
+                            <img src="resources/icons/atIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Send us an email
+                            <!-- <SCRIPT TYPE="text/javascript">document.write('e' + 'mail' + '' + '' + '@' + 'gmail' + '.com') </SCRIPT> -->
+                            <!-- <NOSCRIPT><img src='resources/images/email.png' height="auto" width="200"></NOSCRIPT> -->
+                        </a>
+                    </p>
 
-                <p>
-                    <!-- <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Call us on -->
-                    <span itemprop="telephone" content="+61406998625"></span>
-                    <a href="tel:+61406998625">
-                        <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Call us
-                        <!-- <SCRIPT TYPE="text/javascript">document.write('0' + '4123' + '456' + '7') </SCRIPT> -->
-                        <!-- <NOSCRIPT><img src='resources/images/phonenumber.png' height="auto" width="150"></NOSCRIPT> -->
-                    </a>
-                </p>
+                        <span itemprop="telephone" content="+61406998625"></span>
+                        <a href="tel:+61406998625">
+                            <img src="resources/icons/phoneIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Call us
+                            <!-- <SCRIPT TYPE="text/javascript">document.write('0' + '4123' + '456' + '7') </SCRIPT> -->
+                            <!-- <NOSCRIPT><img src='resources/images/phonenumber.png' height="auto" width="150"></NOSCRIPT> -->
+                        </a>
+                    </p>
 
-                <p>
-                    <!-- <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
+                    <p>
+                        <!-- <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
                     Send us an SMS on -->
-                    <span itemprop="telephone" content="+61406998625"></span>
-                    <a href="sms:+61406998625">
-                        <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
-                        Send us an SMS
-                        <!-- <SCRIPT TYPE="text/javascript">document.write('0' + '4123' + '456' + '7') </SCRIPT> -->
-                        <!-- <NOSCRIPT><img src='resources/images/phonenumber.png' height="auto" width="150"></NOSCRIPT> -->
-                    </a>
-                </p>
-
-                <br></br>
-                <p>You can find us at our pages on these platforms:</p>
-                <div class="content-area-grid">
-                    <div class="content-block">
-
-                        <a href="https://www.instagram.com/gentlemansstone/">
-                            <img src="resources/icons/Instagram_Glyph_Gradient.png" style="width:82px; height:86px"
-                                alt="Instagram icon with link">
+                        <span itemprop="telephone" content="+61406998625"></span>
+                        <a href="sms:+61406998625">
+                            <img src="resources/icons/smsIcon.png" style="width:42px; height:46px" alt="email Icon">
+                            Send us an SMS
+                            <!-- <SCRIPT TYPE="text/javascript">document.write('0' + '4123' + '456' + '7') </SCRIPT> -->
+                            <!-- <NOSCRIPT><img src='resources/images/phonenumber.png' height="auto" width="150"></NOSCRIPT> -->
                         </a>
+                    </p>
 
-                        <a href="https://www.instagram.com/gentlemansstone/">
-                        </a>
+                    <br></br>
+                    <p>You can find us at our pages on these platforms:</p>
+                    <div class="content-area-grid">
+                        <div class="content-block">
+
+                            <a href="https://www.instagram.com/gentlemansstone/">
+                                <img src="resources/icons/Instagram_Glyph_Gradient.png" style="width:82px; height:86px"
+                                    alt="Instagram icon with link">
+                            </a>
+
+                            <a href="https://www.instagram.com/gentlemansstone/">
+                            </a>
+                        </div>
+
+                        <div class="content-block">
+
+                            <a href="https://www.facebook.com/thegentlemansstone">
+                                <img src="resources/icons/f_logo_RGB-Blue_58.png" style="width:82px; height:86px"
+                                    alt="Facebook icon with link">
+                            </a>
+
+                            <a href="https://www.facebook.com/thegentlemansstone">
+                            </a>
+
+                        </div>
+
                     </div>
 
-                    <div class="content-block">
-
-                        <a href="https://www.facebook.com/thegentlemansstone">
-                            <img src="resources/icons/f_logo_RGB-Blue_58.png" style="width:82px; height:86px"
-                                alt="Facebook icon with link">
-                        </a>
-
-                        <a href="https://www.facebook.com/thegentlemansstone">
-                        </a>
-
-                    </div>
-
-                </div>
-
-                <!-- <p>Use our online form to send us a message:</p>
+                    <!-- <p>Use our online form to send us a message:</p>
 
                 <form action="#" method="post" class="contact-form layout-wide">
 
@@ -1271,75 +1296,75 @@
                 </form> -->
 
 
-            </section>
+                </section>
 
 
 
 
+
+            </div>
 
         </div>
 
-    </div>
-
-    <!-- <br></br>
+        <!-- <br></br>
     <br></br>
     <br></br>
     <br></br>
     <br></br>
     <br></br> -->
 
-    <!-- Start hero spacer section-->
-    <div id="spacerhero" class="spacer spacer-hero">
-        <NOSCRIPT><img src="resources/images/bg-0.jpg" alt="Sandstone wall"></NOSCRIPT>
-        <br><br><br><br>
-        <br><br><br><br>
-        <br><br><br><br>
-    </div>
-    <!-- End hero spacer section -->
+        <!-- Start hero spacer section-->
+        <div id="spacerhero" class="spacer spacer-hero">
+            <NOSCRIPT><img src="resources/images/bg-0.jpg" alt="Sandstone wall"></NOSCRIPT>
+            <br><br><br><br>
+            <br><br><br><br>
+            <br><br><br><br>
+        </div>
+        <!-- End hero spacer section -->
+    </section>
+</body>
 
-    </main>
+<footer>
+    <div id="footer-notice" class="footer-notices">
+        <!-- <div id="footer-info" class="footer-infos"> -->
+        <div class="content-area-grid-three">
+            <p><b>ABN: </b>68 804 965 359</p>
+            <p><b>QBCC Licence Number: </b> 15451143</p>
+            <p><b>QBCC Licence Name: </b>Elliott Rogerson.</p>
 
-    <footer>
-        <div id="footer-notice" class="footer-notices">
-            <!-- <div id="footer-info" class="footer-infos"> -->
-            <div class="content-area-grid-three">
-                <p><b>ABN: </b>68 804 965 359</p>
-                <p><b>QBCC Licence Number: </b> 15451143</p>
-                <p><b>QBCC Licence Name: </b>Elliott Rogerson.</p>
+        </div>
 
-            </div>
+        <p>&copy; 2024 The Gentleman's Stone.</p>
 
-            <p>&copy; 2024 The Gentleman's Stone.</p>
-
-            <!-- <div id="design-notice" class="design-notices">
+        <!-- <div id="design-notice" class="design-notices">
                 <a href="https://github.com/benjamintdev">
                     <p>Web design by Benjamin Taylor.<p>
                 </a>
             </div> -->
 
-        </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="resources/js/css-var-polyfill.js"></script>
-    <script src="resources/js/jquery.js"></script>
-    <script src="resources/js/simpleLightbox.min.js"></script>
-    <script src="resources/js/scripts.js"></script>
-    <script src="resources/js/jquery-1.11.2.min.js"></script>
+<script src="resources/js/css-var-polyfill.js"></script>
+<script src="resources/js/jquery.js"></script>
+<script src="resources/js/simpleLightbox.min.js"></script>
+<script src="resources/js/scripts.js"></script>
+<script src="resources/js/jquery-1.11.2.min.js"></script>
 
-    <!-- http://pixelcog.github.io/parallax.js/ -->
-    <script src="resources/js/parallax.js-1.5.0/parallax.js"></script>
+<!-- http://pixelcog.github.io/parallax.js/ -->
+<script src="resources/js/parallax.js-1.5.0/parallax.js"></script>
 
-    <!--smoothscroll js polyfill-->
-    <script src="resources/js/smoothscroll.js"></script>
+<!--smoothscroll js polyfill-->
+<script src="resources/js/smoothscroll.js"></script>
 
-    <!-- Sticky JS polyfill-->
-    <script src="resources/js/stickyfill.min.js"></script>
+<!-- Sticky JS polyfill-->
+<script src="resources/js/stickyfill.min.js"></script>
 
-    <!-- smooth scroll JS polyfill-->
-    <script src="dist/smooth-scroll.polyfills.js"></script>
+<!-- smooth scroll JS polyfill-->
+<script src="dist/smooth-scroll.polyfills.js"></script>
 
 
-    <!-- <script>
+<!-- <script>
     // Instantiate Scrolls
     var scroll = new SmoothScroll('a[href*="#"]:not([data-easing])');
     if (document.querySelector('[data-easing]')) {
@@ -1347,62 +1372,62 @@
 			}
 </script> -->
 
-    <script>
-        // HTML document is loaded. DOM is ready.
-        $(function () {
+<script>
+    // HTML document is loaded. DOM is ready.
+    $(function () {
 
-            //var elements = document.querySelectorAll('.sticky');
-            //Stickyfill.add(elements);
+        //var elements = document.querySelectorAll('.sticky');
+        //Stickyfill.add(elements);
 
-            var elements = $('.sticky');
-            Stickyfill.add(elements);
+        var elements = $('.sticky');
+        Stickyfill.add(elements);
 
-            // Parallax
-            $('.spacer-hero').parallax({
-                imageSrc: 'resources/images/bg-00.jpg',
-                speed: 0.2
-            });
+        // Parallax
+        // $('.spacer-hero').parallax({
+        //     imageSrc: 'resources/images/bg-00.jpg',
+        //     speed: 0.2
+        // });
 
-            $('.spacer-1').parallax({
-                imageSrc: 'resources/images/bg-2.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-2').parallax({
-                imageSrc: 'resources/images/bg-1.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-3').parallax({
-                imageSrc: 'resources/images/bg-3.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-4').parallax({
-                imageSrc: 'resources/images/bg-4.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-5').parallax({
-                imageSrc: 'resources/images/bg-5.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-6').parallax({
-                imageSrc: 'resources/images/bg-6.jpg',
-                speed: 0.2
-            });
-
-            $('.spacer-7').parallax({
-                imageSrc: 'resources/images/bg-7.jpg',
-                speed: 0.2
-            });
-
+        $('.spacer-1').parallax({
+            imageSrc: 'resources/images/bg-2.jpg',
+            speed: 0.2
         });
 
-    </script>
+        $('.spacer-2').parallax({
+            imageSrc: 'resources/images/bg-1.jpg',
+            speed: 0.2
+        });
 
-    <script type="application/ld+json">
+        $('.spacer-3').parallax({
+            imageSrc: 'resources/images/bg-3.jpg',
+            speed: 0.2
+        });
+
+        $('.spacer-4').parallax({
+            imageSrc: 'resources/images/bg-4.jpg',
+            speed: 0.2
+        });
+
+        $('.spacer-5').parallax({
+            imageSrc: 'resources/images/bg-5.jpg',
+            speed: 0.2
+        });
+
+        $('.spacer-6').parallax({
+            imageSrc: 'resources/images/bg-6.jpg',
+            speed: 0.2
+        });
+
+        $('.spacer-7').parallax({
+            imageSrc: 'resources/images/bg-7.jpg',
+            speed: 0.2
+        });
+
+    });
+
+</script>
+
+<script type="application/ld+json">
     {
         "@context": "http://schema.org/",
         "@type": "Stonemason",
