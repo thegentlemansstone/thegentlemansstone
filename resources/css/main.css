@@ -9,16 +9,20 @@
 :root {
 
     /* Colors */
-    --main-text-color: #61425c; 
+    /* --main-text-color: #61425c;  */
+    --main-text-color: #613d45; 
+
     --strong-text-color: #897f75;
     /* --strong-text-color: #28313b;*/
-    --site-title-text-color: #461220;
+    /* --site-title-text-color: #461220; */
+    --site-title-text-color: #641d1b;
     --site-title-decoration-color: #61425c;
     /* --link-color: #cc0099; */
     --link-color: #b47655;
     --border-color: #97a4b1;
     /* --alternative-bg-color:  #d7d4d8; */
-    --alternative-bg-color:  #e6dfe3     ;
+    /* --alternative-bg-color:  #e6dfe3     ; */
+    --alternative-bg-color:  #e7dbd8     ;
 
     --alternative-text-color:  #b47655; 
   
