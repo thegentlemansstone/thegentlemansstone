@@ -37,6 +37,8 @@
     --font-size-design-notice: 12px;
     --font-size-fancy-text: 22px;
     --font-size-fancylarge-text: 36px;
+    --font-size-fancysmall-text: 14px;
+
 
    
     --site-width: 1200px;
@@ -195,6 +197,11 @@ a{
 .fancylarge{
     font-family: var( --font-heading );
     font-size: var(--font-size-fancylarge-text);
+    color: var(--site-title-text-color);
+}
+.fancysmall{
+    font-family: var( --font-heading );
+    font-size: var(--font-size-fancysmall-text);
     color: var(--site-title-text-color);
 }
 
